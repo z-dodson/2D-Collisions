@@ -1,0 +1,47 @@
+body {
+  margin:0;
+  font-family:Arial;
+  display:flex;
+  height:100vh;
+}
+
+#canvas {
+  background:#111;
+  flex:1;
+  cursor:crosshair;
+}
+
+#panel {
+  width:260px;
+  background:#222;
+  color:white;
+  padding:15px;
+  overflow:auto;
+}
+
+label {
+  display:block;
+  margin-top:8px;
+}
+
+input {
+  width:100%;
+}
+
+button {
+  width:100%;
+  margin-top:10px;
+  padding:8px;
+}
+
+.reRow {
+  margin-bottom:6px;
+}
+
+.actButtons{
+  display: flex;
+}
+.actButtons button{
+  margin: 3px;
+  border-radius: 10px;
+}
